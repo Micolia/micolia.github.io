@@ -9,8 +9,6 @@ body {
 
     background-color: #000000;
     border-bottom: 1px solid white;
-
-
 }
 
 .navbar-nav .nav-link:hover {
@@ -195,30 +193,31 @@ p {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background: linear-gradient(135deg, #00aaff, #9b59b6);
+    background: linear-gradient(135deg, #00aaff, #a618df);
     border-radius: 60px;
     text-align: center;
     text-decoration: none;
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #9b59b6, #00aaff);
+    background: linear-gradient(135deg, #a618df, #00aaff);
 }
 
 .project-card {
     background-color: rgb(21, 21, 21);
     color: rgb(255, 255, 255);
     box-shadow: 0 2px 4px #00aaff,
-                0 4px 8px #9b59b6;
+                0 4px 8px #a618df;
 }
 
 
 footer {
-    background: #000000;
+    background: linear-gradient(135deg, #a618df, #00aaff);
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: 60px;
+    width: 100%;
 }
 
 footer p {
