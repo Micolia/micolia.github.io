@@ -195,24 +195,21 @@ p {
     padding: 10px 20px;
     font-size: 16px;
     color: #fff;
-    background-color: #00dc4d;
+    background: linear-gradient(135deg, #00aaff, #9b59b6);
     border-radius: 60px;
     text-align: center;
     text-decoration: none;
-    cursor: pointer;
-    border: 2px solid #00dc4d;
 }
 
 .btn:hover {
-    background-color: #000000;
-    color: #00dc4d;
-    border: 2px solid #00dc4d;
+    background: linear-gradient(135deg, #9b59b6, #00aaff);
 }
 
 .project-card {
     background-color: rgb(21, 21, 21);
     color: rgb(255, 255, 255);
-    box-shadow: 0 4px 8px #00dc4d;
+    box-shadow: 0 2px 4px #00aaff,
+                0 4px 8px #9b59b6;
 }
 
 
@@ -236,7 +233,7 @@ footer p {
 }
 
 .footerlink:hover {
-    color: #00dc4d;
+    color:#00aaff;
 }
 
 
