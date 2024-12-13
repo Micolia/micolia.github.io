@@ -244,6 +244,9 @@ footer p {
         padding-left: 10px;
         padding-right: 10px;
     }
+    #navbarSupportedContent {
+        padding-left: 20px;
+    }
 }
 
 @media (max-width: 480px) {
