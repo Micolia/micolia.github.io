@@ -211,6 +211,23 @@ p {
                 0 4px 8px #a618df;
 }
 
+.aboutitems {
+    padding:20px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #a618df, #00aaff);
+}
+
+.aboutblocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.languagesitems {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
 
 footer {
     background: linear-gradient(135deg, #a618df, #00aaff);
@@ -246,6 +263,22 @@ footer p {
     }
     #navbarSupportedContent {
         padding-left: 20px;
+    }
+
+    .languagesitems {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    footer {
+        margin-top:20px;
+    }
+
+    .aboutblocks {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
 }
 
