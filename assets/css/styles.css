@@ -135,6 +135,15 @@ p {
     color: #ffffff;
 }
 
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #c0c0c0;
+}
+li {
+    margin-bottom: 10px;
+}
+
 .tags {
     margin-top: 10px;
 }
