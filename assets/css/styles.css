@@ -109,8 +109,8 @@ h1 {
     color: #ffffff;
 }
 
-.experience-item, .education-item, .certificate-item, .language-item, .about-item {
-    margin-bottom: 30px;
+.experience-item, .education-item, .certificate-item, .language-item {
+    margin-bottom: 20px;
 }
 
 .date, .langlevel, .certificate {
@@ -194,10 +194,16 @@ li {
     background: linear-gradient(135deg, #a618df, #00aaff);
 }
 
+.aboutitems h3 {
+    text-shadow: 2px 2px 4px rgba(63, 63, 63, 0.7);
+    margin-bottom:15px;
+}
+
 .aboutblocks {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+    margin-bottom:20px;
 }
 
 .languagesitems {
